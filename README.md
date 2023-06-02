@@ -41,11 +41,12 @@
 ---
 
 ## :iphone: About Aplication :
-This ecommers catalog is made using Vue JS. This application was made to complete the work of the Core Initiative Frontend Virtual Internship Program
+This ecommers catalog is made using Vue JS. This application was made to complete the work of the Core Initiative Frontend Virtual Internship Program Rakamin Academy
 1. Men's Clothing
 2. Women's Clothing
 3. Default Product
 4. Product notfound / product run out
+5. consume API from Rakamin Academy
 
 ## Project setup
 ```
