@@ -1,0 +1,371 @@
+/* product */
+.product {
+    position: relative;
+    left: 250px;
+    top: 80px;
+    display: flex;
+    max-width: 980px;
+    padding: 20px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.product-left {
+    width: 30%;
+    padding: 20px;
+}
+
+.product-left img {
+    width: 200px;
+    height: 250px;
+    margin-top: 70px;
+}
+
+.product-right {
+    padding: 20px;
+    width: 70%;
+}
+
+.product-right .rat-cat {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D8D7D7;
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+.product-right .product-description {
+    font-size: 16px;
+    height: 200px;
+    text-align: left;
+    border-bottom: 1px solid #D8D7D7;
+}
+
+/* end-product */
+
+/* men's-clothing */
+.body-men-clothing {
+    background-color: #D6E6FF;
+    height: 50vh;
+    margin-top: -55px;
+}
+
+.body-men-clothing .product-title {
+    color: #002772;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 10px;
+    height: 80px;
+    /* border: 1px solid black; */
+}
+
+.body-men-clothing .product-price {
+    text-align: left;
+    font-size: 18px;
+    color: #002772;
+    font-weight: bold;
+}
+
+.body-men-clothing .buy-button {
+    width: 47%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #002772;
+    color: #fff;
+    margin-right: 6%;
+    cursor: pointer;
+}
+
+.body-men-clothing .buy-button:hover {
+    background-color: #fff;
+    color: #002772;
+    border: 3px solid #002772;
+}
+
+.body-men-clothing .next-button {
+    width: 47%;
+    height: 40px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 3px solid #002772;
+    color: #002772;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.body-men-clothing .next-button:hover {
+    background-color: #002772;
+    color: #fff;
+}
+
+/* end-men's-clothing */
+
+/* women's-clothing */
+.body-women-clothing {
+    background-color: #FDE2FF;
+    height: 50vh;
+    margin-top: -55px;
+}
+
+
+.body-women-clothing .product-title {
+    color: #720060;
+    font-size: 22px;
+    height: 80px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.body-women-clothing .product-price {
+    text-align: left;
+    font-size: 18px;
+    color: #720060;
+    font-weight: bold;
+}
+
+.body-women-clothing .buy-button {
+    width: 47%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #720060;
+    color: #fff;
+    margin-right: 6%;
+    cursor: pointer;
+}
+
+.body-women-clothing .buy-button:hover {
+    background-color: #fff;
+    color: #720060;
+    border: 3px solid #720060;
+}
+
+.body-women-clothing .next-button {
+    width: 47%;
+    height: 40px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 3px solid #720060;
+    color: #720060;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.body-women-clothing .next-button:hover {
+    background-color: #720060;
+    color: #fff;
+}
+
+
+/* end-women's-clothing */
+
+/* body default */
+.body-default {
+    background-color: #D8D7D7;
+    height: 50vh;
+    margin-top: -55px;
+}
+
+.body-default .product-title {
+    color: #000;
+    height: 80px;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.body-default .product-price {
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+
+
+.body-default .buy-button {
+    width: 47%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D8D7D7;
+    color: #000;
+    margin-right: 6%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.body-default .buy-button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #D8D7D7;
+}
+
+.body-default .next-button {
+    width: 47%;
+    height: 40px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 3px solid #D8D7D7;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.body-default .next-button:hover {
+    background-color: #D8D7D7;
+    color: #000;
+}
+
+/* end-body-default */
+
+/* loader */
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    position: relative;
+    top: 290px;
+}
+
+.loader img {
+    background-color: transparent;
+    color: transparent;
+    width: 200px;
+    height: 200px;
+}
+
+.loader p {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* end-loader */
+
+/* product-message */
+.product-message {
+    position: relative;
+    left: 500px;
+    top: 250px;
+    display: block;
+    justify-content: center;
+
+    max-width: 500px;
+    height: 250px;
+    padding: 20px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.product-message img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.product-message .back-button {
+    width: 47%;
+    height: 40px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 3px solid #D8D7D7;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    left: 125px;
+    margin-top: 20px;
+}
+
+.product-message .back-button:hover {
+    background-color: #D8D7D7;
+    color: #000;
+}
+
+/* end-product-message */
+
+
+/* form buy */
+.form {
+    height: 190px;
+}
+
+.username {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.username label {
+    font-size: 16px;
+    top: 30px;
+}
+
+.username input {
+    height: 20px;
+    width: 250px;
+}
+
+.address {
+    align-items: flex-start;
+    height: 20px;
+    width: 50px;
+}
+
+.address label {
+    margin-left: 270px;
+}
+
+.address input {
+    width: 594px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.button-form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-form .submit-oke {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #D8D7D7;
+}
+
+.button-form .submit-oke:hover {
+    background-color: #D8D7D7;
+}
+
+.button-form .submit-cancel {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #D8D7D7;
+}
+
+.button-form .submit-cancel:hover {
+    background-color: #D8D7D7;
+}
+
+/* end-form */
